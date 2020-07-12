@@ -1,0 +1,58 @@
+body {
+    background-color: #eee;
+}
+
+/* Credits: https://codepen.io/Souleste/pen/yLYNWag */
+.input_invalid {
+	border-color: red !important;
+}
+.invalid_text {
+	color: red;
+	background: white;
+	padding: 0 5px;
+	display: block;
+	margin: -10px 15px 0 15px;
+	width: fit-content;
+}
+
+.centered {
+  height: 100vh; /* Magic here */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.centered-horz {
+  width: 33vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container__child {
+  margin-bottom: 1rem
+}
+
+.height_50 {
+  height: 50vh;
+}
+
+.title {
+  margin-left: 0.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.content_banner {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+

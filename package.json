@@ -1,0 +1,50 @@
+{
+  "homepage": ".",
+  "name": "frameripper",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react-checkmark": "latest",
+    "yargs": "latest",
+    "level": "latest",
+    "express": "latest",
+    "winston": "latest",
+    "glob": "latest",
+    "classnames": "latest",
+    "moment": "latest",
+    "bootstrap": "latest",
+    "nouislider": "latest",
+    "perfect-scrollbar": "latest",
+    "react": "latest",
+    "react-bootstrap-switch": "latest",
+    "react-datetime": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "reactstrap": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "pino-pretty": "latest"
+  },
+  "scripts": {
+    "server": "node src/server/BackendDB.js",
+    "start": "HOST=95.217.11.19 PORT=3011 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
